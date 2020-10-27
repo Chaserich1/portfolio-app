@@ -22,7 +22,6 @@ function DaughertyRoleCards()
             <h7>MAY 2012 - PRESENT</h7>
             <h6>As a consultant I worked in several challenging areas that have required great attention to detail, the ability to adapt to different work environments, 
                 and the need to be able to guide team members and clients in an effective and efficient manor to accomplish goals.</h6>
-            <button>View Roles</button><br></br>
           </Card.Text>
         </Card.Body>
       </Card>

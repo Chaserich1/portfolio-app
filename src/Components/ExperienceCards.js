@@ -3,16 +3,6 @@ import { Card } from 'react-bootstrap';
 import "../Tabs.css";
 import DaughertyRoleCards from './DaughertyRoleCards';
 
-class NewComponent extends React.Component {
-    render() {
-      return (
-        <div {...this.props}>
-          <DaughertyRoleCards />
-        </div>
-      );
-    }  
-  }
-
 class Button extends React.Component {
     render() {
       return (
@@ -38,7 +28,8 @@ class ExperienceCards extends React.Component
         });
       }
 
-      render() {
+    render() {
+        if(!this.state.clicked) {
         return <div><Card className = 'card-border'>
         <Card.Body>
           <Card.Title><h2>University of Missouri</h2></Card.Title>
@@ -58,8 +49,7 @@ class ExperienceCards extends React.Component
             <h6>As a consultant I worked in several challenging areas that have required great attention to detail, the ability to adapt to different work environments, 
                 and the need to be able to guide team members and clients in an effective and efficient manor to accomplish goals.</h6>
                 <div>
-                    <Button onClick={this.handleClick} />
-                    {this.state.clicked ? <NewComponent /> : null}
+                    <Button onClick={this.handleClick}></Button>
                 </div>
           </Card.Text>
         </Card.Body>
@@ -85,7 +75,10 @@ class ExperienceCards extends React.Component
         </Card.Body>
       </Card>
       </div>
-      }
+      } else {
+          return <div><DaughertyRoleCards /></div>
+        }
+    } 
 } 
 
 export default ExperienceCards;
