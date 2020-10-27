@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/portfolio-app/static/js/main.ccd52fc9.chunk.js",
-    "main.js.map": "/portfolio-app/static/js/main.ccd52fc9.chunk.js.map",
-    "runtime-main.js": "/portfolio-app/static/js/runtime-main.94e1b90d.js",
-    "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.94e1b90d.js.map",
-    "static/js/2.e8155f65.chunk.js": "/portfolio-app/static/js/2.e8155f65.chunk.js",
-    "static/js/2.e8155f65.chunk.js.map": "/portfolio-app/static/js/2.e8155f65.chunk.js.map",
-    "static/js/3.0092bab2.chunk.js": "/portfolio-app/static/js/3.0092bab2.chunk.js",
-    "static/js/3.0092bab2.chunk.js.map": "/portfolio-app/static/js/3.0092bab2.chunk.js.map",
+    "main.css": "/portfolio-app/static/css/main.02403fe9.chunk.css",
+    "main.js": "/portfolio-app/static/js/main.58aad0c1.chunk.js",
+    "main.js.map": "/portfolio-app/static/js/main.58aad0c1.chunk.js.map",
+    "runtime-main.js": "/portfolio-app/static/js/runtime-main.2d873695.js",
+    "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.2d873695.js.map",
+    "static/js/2.06ec3406.chunk.js": "/portfolio-app/static/js/2.06ec3406.chunk.js",
+    "static/js/2.06ec3406.chunk.js.map": "/portfolio-app/static/js/2.06ec3406.chunk.js.map",
+    "static/js/3.93e76f27.chunk.js": "/portfolio-app/static/js/3.93e76f27.chunk.js",
+    "static/js/3.93e76f27.chunk.js.map": "/portfolio-app/static/js/3.93e76f27.chunk.js.map",
     "index.html": "/portfolio-app/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/portfolio-app/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.e8155f65.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.e8155f65.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/portfolio-app/static/media/logo.103b5fa1.svg"
+    "static/css/main.02403fe9.chunk.css.map": "/portfolio-app/static/css/main.02403fe9.chunk.css.map",
+    "static/js/2.06ec3406.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.06ec3406.chunk.js.LICENSE.txt",
+    "static/media/Chase-Picture.d75ad201.PNG": "/portfolio-app/static/media/Chase-Picture.d75ad201.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.94e1b90d.js",
-    "static/js/2.e8155f65.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.ccd52fc9.chunk.js"
+    "static/js/runtime-main.2d873695.js",
+    "static/js/2.06ec3406.chunk.js",
+    "static/css/main.02403fe9.chunk.css",
+    "static/js/main.58aad0c1.chunk.js"
   ]
 }
