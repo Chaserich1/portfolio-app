@@ -2,11 +2,12 @@ import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "../Tabs.css";
 import ExperienceCards from '../Components/ExperienceCards';
+import Repositories from './Repositories';
 
 
 function HomeTabs() 
 { 
-  return <div class="fluid-container"><Tabs>
+  return <div className="fluid-container"><Tabs>
     <TabList>
       <Tab >About Me</Tab>
       <Tab >Experience</Tab>
@@ -21,7 +22,7 @@ function HomeTabs()
       <ExperienceCards />
     </TabPanel>
     <TabPanel>
-      <div>Repositories</div>
+      <Repositories />
     </TabPanel>
     <TabPanel>
       <div>Email: </div>

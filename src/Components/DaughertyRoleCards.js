@@ -8,9 +8,8 @@ function DaughertyRoleCards()
         <Card.Body>
           <Card.Title><h2>Intern: Computer Technician</h2></Card.Title>
           <Card.Text>
-            <h7>AUG 2015 - MAY 2020</h7>
-            <h6>B.S. Computer Science. Completed many challenging courses including: Compilers, Operating Systems, Data Structures and Algorithms, Web Development with JavaScript,
-                Java, Software Security, C++...
+            <h6>Imaging, staging, kitting, and shipping of handheld devices and computers. These devices were then used by Anheuser-Busch wholesaler delivery drivers and sales representatives to deliver and sell beer to retail accounts across the country.
+            <br></br>Used: MS Excel, WINS
             </h6>
           </Card.Text>
         </Card.Body>
@@ -19,9 +18,11 @@ function DaughertyRoleCards()
         <Card.Body >
           <Card.Title><h2>Marketing Research Analyst</h2></Card.Title>
           <Card.Text>
-            <h7>MAY 2012 - PRESENT</h7>
-            <h6>As a consultant I worked in several challenging areas that have required great attention to detail, the ability to adapt to different work environments, 
-                and the need to be able to guide team members and clients in an effective and efficient manor to accomplish goals.</h6>
+            <h6>Preparation and presentation of marketing and business analytic research for the management team including topics such as agile development. Also performed financial analysis activities and writing marketing communications to clients.
+            <br></br>Used: MS Office, MS Excel, WINS (customer tracking system), UPS WorldShip 
+            <br></br>o	Mobility Hardware – Continued being responsible for all incoming and outgoing Mobility hardware/staging shipments to Wholesalers.
+            <br></br>o	Monthly Newsletter – Created and managed a monthly newsletter called “The Wholesaler Monthly” that provided insights into Daugherty’s hardware offerings in support of the Mobility selling platform.
+            </h6>
           </Card.Text>
         </Card.Body>
       </Card>
@@ -29,8 +30,13 @@ function DaughertyRoleCards()
         <Card.Body>
           <Card.Title><h2>Anheuser-Busch InBev</h2></Card.Title>
           <Card.Text>
-            <h7>AUG 2020 - PRESENT</h7>
-            <h6>Currently in MBA program at Lindenwood University – emphasis in Finance.  Courses include Economics, Accounting, Managerial Studies.</h6>
+            <h6>•	Anheuser-Busch InBev – (Full-time while in College and upon graduation in May 2020) Currently work as a Tier II/III support analyst, assisting over 30,000 users at over 500 Anheuser-Busch Wholesalers across the US and Quebec, Canada.  This includes resolving application issues through troubleshooting, data analysis, and critical thinking. Training incoming analysts, creating troubleshooting articles, and giving Subject Matter Expert presentations to the entire team. 
+            <br></br>Used: MS Excel, MS Office, Salesforce (Lightning/Classic), Jira, Citrix, SQL, Zoom, Slack, Cisco Jabber, LogMeIn
+            <br></br>o	Governance Development - Gaining additional tier 3 skills by working with senior governance team developers including independent code investigations and resolutions (JavaScript, .Net and SQL).
+            <br></br>o	ZBS Access Requests – Granting access to brewery systems through the BIER application and troubleshooting access issues. Coordinated and assigned incoming tickets to team members and training new analysts. 
+                Used: MS Excel, Jira, Skype, BIER
+                <br></br>o	Mobility Hardware – Continued being responsible for all incoming and outgoing Mobility hardware/staging shipments to Wholesalers. 
+            </h6>
           </Card.Text>
         </Card.Body>
       </Card>
@@ -39,9 +45,7 @@ function DaughertyRoleCards()
           <Card.Title><h2>Software Engineer</h2></Card.Title>
           <Card.Text>
             <h7>JUN 2014 - AUG 2018</h7>
-            <h6>Coached tennis and paddleball lessons for children and adults. Worked in the shop selling clothing, 
-                taking phone calls, setting up regular personal private lessons, and hosting various events. Implemented 
-                a plan for keeping the tennis grounds in top shape for the members.</h6>
+            <h6>Placeholder details</h6>
           </Card.Text>
         </Card.Body>
       </Card>
