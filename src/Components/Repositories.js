@@ -15,9 +15,10 @@ class Repositories extends Component {
           .then((result) => {
               console.log(result);
               for(var i = 0; i < result.length; i++){
+                var addRepo = this.state.data.concat(result[i].name);
                 this.setState({
                     data: 
-                     [result[i].name],
+                     addRepo,
                   })
               }
           })
@@ -31,7 +32,7 @@ class Repositories extends Component {
 
         const result = data.map((entry, index) => {
             return <li key={index}>{entry}</li>
-        })
+        });
 
         return <ul>{result}</ul>
     }
