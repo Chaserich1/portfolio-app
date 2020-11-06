@@ -9,10 +9,10 @@ function HomeTabs()
 { 
   return <div className="fluid-container"><Tabs>
     <TabList>
-      <Tab >About Me</Tab>
-      <Tab >Experience</Tab>
-      <Tab >Repositories</Tab>
-      <Tab >Contact</Tab>
+      <Tab name="AboutMeTab">About Me</Tab>
+      <Tab name="ExperienceTab">Experience</Tab>
+      <Tab name="RepositoriesTab">Repositories</Tab>
+      <Tab name="ContactTab">Contact</Tab>
     </TabList>
 
     <TabPanel>
