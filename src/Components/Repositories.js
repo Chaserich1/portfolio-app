@@ -3,7 +3,7 @@ import "../Tabs.css";
 
 class Repositories extends Component {
     state = {
-        data: [],
+        data: [],        
     }
 
     componentDidMount() {
@@ -15,11 +15,16 @@ class Repositories extends Component {
           .then((result) => {
               console.log(result);
               for(var i = 0; i < result.length; i++){
-                var addRepo = this.state.data.concat(result[i].name);
-                this.setState({
-                    data: 
-                     addRepo,
-                  })
+                var newRepo = {
+                    name: result[i].name, 
+                    language: result[i].language,
+                    description: result[i].description,
+                    url: result[i].clone_url,
+                }
+                                
+                this.setState( prevState => ({
+                    data: [...prevState.data, newRepo],
+                }))
               }
           })
           .catch((error) => {
@@ -29,12 +34,42 @@ class Repositories extends Component {
 
     render() {
         const {data} = this.state;
+        //console.log(data);
 
-        const result = data.map((entry, index) => {
+        return (
+            <div className="col">
+                <h1>GitHub Repositories</h1>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Language</th>
+                        <th>Description</th>
+                        <th>URL</th>
+                    </tr>
+                    {data.map(data =>                         
+                        <tr>
+                            <td>{data.name}</td>
+                            <td>{data.language}</td>
+                            <td>{data.description}</td>
+                            <td>{data.url}</td>
+                        </tr>
+                    )}
+                </table>
+            </div>
+        )
+        
+            
+        /*const result = data.map((entry, index) => {
             return <li key={index}>{entry}</li>
         });
 
-        return <ul>{result}</ul>
+        const newResult = result.map((entry, index) => {
+            return <table id="simple-table"><tbody key={index}>{entry}</tbody></table>
+        });
+
+        return <div>{newResult}</div>
+        
+        //return <ul>{result}</ul>*/
     }
 }
 
